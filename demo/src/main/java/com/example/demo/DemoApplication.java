@@ -19,7 +19,7 @@ public class DemoApplication {
 
 	@PostMapping("/{name}")
 	public String getMsg(@PathVariable String name){
-		return "Your name is" + name;
+		return "Your name is :" + name;
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
